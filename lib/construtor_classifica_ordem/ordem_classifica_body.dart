@@ -205,31 +205,37 @@ class _OrdemClassificaBody extends State<OrdemClassificaBody> {
                                     sizeCurve: Curves.easeOut,
                                     firstChild: Container(
                                       alignment: Alignment.center,
-                                      child: Text(
-                                        Botoes.botao1,
-                                        style: TextStyle(
-                                            fontFamily: 'Open-Sans',
-                                            fontWeight: FontWeight.normal,
-                                            fontSize: 16.0,
-                                            height:
-                                                1.4 //You can set your custom height here
-                                            ),
-                                        textAlign: TextAlign.justify,
-                                      ),
+                                      child: Column(children: [
+                                        Text(
+                                          Botoes.botao1,
+                                          style: TextStyle(
+                                              fontFamily: 'Open-Sans',
+                                              fontWeight: FontWeight.normal,
+                                              fontSize: 16.0,
+                                              height:
+                                              1.4 //You can set your custom height here
+                                          ),
+                                          textAlign: TextAlign.justify,
+                                        ),
+                                        Image.asset(Botoes.img1)
+                                      ],)
                                     ),
                                     secondChild: Container(
                                       alignment: Alignment.center,
-                                      child: Text(
-                                        Botoes.botao1,
-                                        style: TextStyle(
-                                            fontFamily: 'Open-Sans',
-                                            fontWeight: FontWeight.normal,
-                                            fontSize: 16.0,
-                                            height:
-                                                1.4 //You can set your custom height here
-                                            ),
-                                        textAlign: TextAlign.justify,
-                                      ),
+                                      child: Column(children: [
+                                        Text(
+                                          Botoes.botao1,
+                                          style: TextStyle(
+                                              fontFamily: 'Open-Sans',
+                                              fontWeight: FontWeight.normal,
+                                              fontSize: 16.0,
+                                              height:
+                                              1.4 //You can set your custom height here
+                                          ),
+                                          textAlign: TextAlign.justify,
+                                        ),
+                                        Image.asset(Botoes.img1)
+                                      ],)
                                     ),
                                   ),
                                 ],
@@ -268,7 +274,7 @@ class _OrdemClassificaBody extends State<OrdemClassificaBody> {
                                     Botoes.segundobotao();
                                     setState(() {});
                                   },
-                                  child: Text(
+                                  child: Column(children: [Text(
                                     Botoes.botao2,
                                     style: TextStyle(
                                         fontFamily: 'Open-Sans',
@@ -278,7 +284,7 @@ class _OrdemClassificaBody extends State<OrdemClassificaBody> {
                                             1.4 //You can set your custom height here
                                         ),
                                     textAlign: TextAlign.justify,
-                                  ),
+                                  ), Image.asset(Botoes.img2)]),
                                   color: voltarColor,
                                 ),
                               ),
@@ -298,17 +304,17 @@ class _OrdemClassificaBody extends State<OrdemClassificaBody> {
                                     Botoes.segundobotao();
                                     setState(() {});
                                   },
-                                  child: Text(
+                                  child: Column(children: [Text(
                                     Botoes.botao2,
                                     style: TextStyle(
                                         fontFamily: 'Open-Sans',
                                         fontWeight: FontWeight.normal,
                                         fontSize: 16.0,
                                         height:
-                                            1.4 //You can set your custom height here
-                                        ),
+                                        1.4 //You can set your custom height here
+                                    ),
                                     textAlign: TextAlign.justify,
-                                  ),
+                                  ), Image.asset(Botoes.img2)]),
                                   color: voltarColor,
                                 ),
                               ),

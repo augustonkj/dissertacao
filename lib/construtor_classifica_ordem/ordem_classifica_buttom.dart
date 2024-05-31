@@ -11,6 +11,8 @@ class OrdemClassificaBotoes{
   int indice= 0;
   String botao1 ="";
   String botao2;
+  String img1 ="";
+  String img2;
   bool classificou = false;
   List<bool> ativou1 = [false];
   List<bool> ativou2 = [false];
@@ -27,6 +29,8 @@ class OrdemClassificaBotoes{
         matrizClassificacao.matrizik != null) {
       botao1 = matrizClassificacao.matrizij;
       botao2 = matrizClassificacao.matrizik;
+      img1 = matrizClassificacao.imgij;
+      img2 = matrizClassificacao.imgik;
     }
 
 
@@ -50,6 +54,8 @@ class OrdemClassificaBotoes{
       matrizClassificacao..define();
       botao1 = matrizClassificacao.matrizij;
       botao2 = matrizClassificacao.matrizik;
+      img1 = matrizClassificacao.imgij;
+      img2 = matrizClassificacao.imgik;
       ativou1.add(true);
       ativou2.add(false);
       if (botao1 != null && botao2 != null) {
@@ -91,6 +97,8 @@ class OrdemClassificaBotoes{
       matrizClassificacao..define();
       botao1 = matrizClassificacao.matrizij;
       botao2 = matrizClassificacao.matrizik;
+      img1 = matrizClassificacao.imgij;
+      img2 = matrizClassificacao.imgik;
       ativou1.add(false);
       ativou2.add(true);
 
@@ -120,6 +128,8 @@ class OrdemClassificaBotoes{
         matrizClassificacao..define();
         botao1 = matrizClassificacao.matrizij;
         botao2 = matrizClassificacao.matrizik;
+        img1 = matrizClassificacao.imgij;
+        img2 = matrizClassificacao.imgik;
         historico = listadecisoes.join('\n');
 
       } else if (ativou2[matrizClassificacao.i] = true) {
@@ -133,6 +143,8 @@ class OrdemClassificaBotoes{
         matrizClassificacao..define();
         botao1 = matrizClassificacao.matrizij;
         botao2 = matrizClassificacao.matrizik;
+        img1 = matrizClassificacao.imgij;
+        img2 = matrizClassificacao.imgik;
         historico = listadecisoes.join('\n');
 
       }
@@ -149,6 +161,8 @@ class OrdemClassificaBotoes{
     matrizClassificacao.k = 1;
     botao1 = matrizClassificacao.matrizij;
     botao2 = matrizClassificacao.matrizik;
+    img1 = matrizClassificacao.imgij;
+    img2 = matrizClassificacao.imgik;
     historico = "";
     listadecisoes = [""];
     visibilidade = true;
