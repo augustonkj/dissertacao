@@ -11,7 +11,7 @@ class Matriz_Ordem_Hexapoda {
   int k = 1;
 
   var matrizindice = ["[0][0]"];
-  var matriztexto = ["Asas ausentes ou reduzidas, não funcionais (Figs 9.1-5, 10.1, 13.1, 4-5, 26.105-106, 27.58, 62)"];
+  var matriztexto = ["Asas ausentes ou reduzidas, não funcionais."];
   var matrizimg = ["assets/imgchave/1.png"];
 
   void define() {
@@ -151,25 +151,25 @@ class Matriz_Ordem_Hexapoda {
 
     //Inicio dos textos da matriz
 //1
-    matriztexto.add("Inseto séssil ou de pouca mobilidade encontrado em plantas; corpo achatado ou arredondado, com ou sem carapaça ou cobertura de cera; aparelho bucal sugador; pernas presentes, ausentes ou reduzidas; se presentes, com tarsos monômeros e garras simples (Figs 25.6-23) (fêmeas de cochonilhas)");
+    matriztexto.add("Inseto séssil ou com pouca mobilidade encontrado em plantas, com corpo achatado ou arredondado, podendo ter ou não uma carapaça ou cobertura de cera. Tem aparelho bucal para sugar e as pernas podem estar presentes, ausentes ou reduzidas. Se tiver pernas, elas possuem segmentos simples e garras simples (fêmeas de cochonilhas).");
     matriztexto.add("Hemiptera");
-    matriztexto.add("Inseto não séssil, sem carapaça ou cobertura de cera; aparelho bucal variável; pernas presentes e funcionais");
-    matriztexto.add("Aparelho bucal do tipo entognato, oculto e alojado em uma cavidade da cápsula cefálica (Figs 9.1-5, 10.1, 11.1); olhos rudimentares ou ausentes; tarsos com apenas um segmento");
-    matriztexto.add("Antenas ausentes; perna anterior alongada e com muitas cerdas longas; abdômen com 12 segmentos; comprimento do corpo 0,5-2 mm (Fig. 10.1)");
+    matriztexto.add("Inseto móvel, sem carapaça ou cobertura de cera, com aparelho bucal variado e pernas presentes e funcionais.");
+    matriztexto.add("Aparelho bucal escondido dentro de uma cavidade na cabeça. Olhos rudimentares (olhos muito pequenos e pouco desenvolvidos) ou ausentes. Pernas com apenas um segmento na parte final (tarsos).");
+    matriztexto.add("Antenas ausentes; perna anterior alongada e com muitas cerdas longas; abdômen com 12 segmentos; comprimento do corpo 0,5-2 mm.");
     matriztexto.add("Protura");
-    matriztexto.add("Antenas presentes; perna anterior não modificada; abdômen com 10 segmentos ou menos");
-    matriztexto.add("Cercos presentes, longos e segmentados ou em forma de pinça; corpo estreito e alongado, abdômen com 10 segmentos, colóforo, fúrcula e retináculo ausentes; comprimento do corpo 1-58 mm (Figs 11.21-24)");
+    matriztexto.add("Antenas presentes; perna anterior não modificada; abdômen com 10 segmentos ou menos.");
+    matriztexto.add("Cercos presentes (apêndices na extremidade do abdômen), que são longos e segmentados ou em forma de pinça. Corpo estreito e alongado, com abdômen de 10 segmentos. Não possui colóforo (estrutura que ajuda na absorção de água), fúrcula (estrutura usada para saltar) e retináculo (estrutura que segura a fúrcula no lugar). Comprimento do corpo varia de 1 a 58 mm.");
     matriztexto.add("Diplura");
-    matriztexto.add("Cercos ausentes; corpo curto; abdômen com, no máximo, 6 segmentos; colóforo, fúrcula e retináculo presentes; comprimento do corpo 0,25-6 mm");
+    matriztexto.add("Não possui cercos (apêndices na extremidade do abdômen). Corpo curto, com abdômen de no máximo 6 segmentos. Possui colóforo (estrutura que ajuda na absorção de água), fúrcula (estrutura usada para saltar) e retináculo (estrutura que segura a fúrcula no lugar). Comprimento do corpo varia de 0,25 a 6 mm.");
     matriztexto.add("Collembola");
-    matriztexto.add("Aparelho bucal do tipo ectognato, não alojado em uma cavidade da cabeça; olhos presentes ou ausentes; tarsos geralmente com mais de 2 segmentos");
-    matriztexto.add("Três filamentos caudais presentes (cercos e paracerco); abdômen com estilos ventrais (Figs 12.1, 13.1-2)");
-    matriztexto.add("Olhos compostos grandes, geralmente contíguos; tórax arqueado; comprimento do corpo 6-20 mm (Fig. 12.1) ");
+    matriztexto.add("Aparelho bucal do tipo ectognato (não escondido em uma cavidade na cabeça). Olhos podem estar presentes ou ausentes. Pernas geralmente com mais de 2 segmentos na parte final (tarsos).");
+    matriztexto.add("Três filamentos caudais presentes na extremidade do abdômen: dois cercos (apêndices) e um paracerco (apêndice adicional). Abdômen com pequenos apêndices ventrais chamados estilos.");
+    matriztexto.add("Olhos compostos grandes, geralmente próximos um do outro. Tórax arqueado. Comprimento do corpo varia de 6 a 20 mm.");
     matriztexto.add("Archaeognatha");
-    matriztexto.add("Olhos compostos pequenos ou ausentes; corpo achatado dorso-ventralmente; comprimento do corpo 2-15 mm (Figs 13.1, 4-5)");
+    matriztexto.add("Olhos compostos pequenos ou ausentes. Corpo achatado de cima para baixo (dorso-ventralmente). Comprimento do corpo varia de 2 a 15 mm.");
     matriztexto.add("Zygentoma");
-    matriztexto.add("Cercos presentes ou ausentes; paracerco ausente; abdômen sem estilos ventrais");
-    matriztexto.add("Abdômen com constrição conspícua na base, formando uma cintura; tarsos pentâmeros; aparelho bucal mastigador; antena geniculada ou filiforme (formigas e vespas ápteras) (Figs 27.58, 27.62)");
+    matriztexto.add("Cercos (apêndices na extremidade do abdômen) podem estar presentes ou ausentes. Paracerco (apêndice adicional na extremidade do abdômen) está ausente. Abdômen sem estilos ventrais (pequenos apêndices na parte inferior).");
+    matriztexto.add("Abdômen com uma constrição visível na base, formando uma cintura. Tarsos (segmentos finais das pernas) com cinco segmentos. Aparelho bucal mastigador. Antena dobrada em forma de cotovelo (geniculada) ou fina e alongada (filiforme), como em formigas e vespas sem asas (ápteras).");
     matriztexto.add("Hymenoptera");
     matriztexto.add("Abdômen sem constrição na base; tarsos, aparelho bucal e antenas variáveis");
     matriztexto.add("Cercos presentes; aparelho bucal mastigador; antenas longas, filiformes ou moniliformes (ortopteroides) (Figs 16.4, 19.76, 20.7, 21.32, 23.15, 23.19-24)");
@@ -204,7 +204,7 @@ class Matriz_Ordem_Hexapoda {
     matriztexto.add("Thysanoptera");
     matriztexto.add("Pernas terminando em garras bem desenvolvidas; aparelho bucal variável (Figs 26.7, 26.64-103)");
     matriztexto.add("Psocodea");
-    matriztexto.add("Asas presentes e funcionais (Figs 14.1, 4, 17.21, 18.3, 24.1, 32.1)");
+    matriztexto.add("Asas presentes e funcionais");
     matriztexto.add("Com um ou dois pares de asas de textura uniforme, não engrossadas nem endurecidas (mas podem estar cobertas de pelos ou escamas, e apresentar pigmentação)");
     matriztexto.add("Com apenas um par de asas");
     matriztexto.add("Asas posteriores em forma de halteres (Fig. 36.6); tarsos pentâmeros; aparelho bucal sugador (atrofiado em algumas espécies)");
@@ -292,18 +292,18 @@ class Matriz_Ordem_Hexapoda {
     matrizimg.add("assets/imgchave/5.png");
     matrizimg.add("assets/imgchave/6.png");
     matrizimg.add("assets/imgchave/7.png");
-    matrizimg.add("assets/imgchave/8.png");
-    matrizimg.add("assets/imgchave/9.png");
+    matrizimg.add("assets/imgchave/null.png");
+    matrizimg.add("assets/imgchave/null.png");
     matrizimg.add("assets/imgchave/10.png");
-    matrizimg.add("assets/imgchave/11.png");
+    matrizimg.add("assets/imgchave/null.png");
     matrizimg.add("assets/imgchave/12.png");
-    matrizimg.add("assets/imgchave/13.png");
+    matrizimg.add("assets/imgchave/null.png");
     matrizimg.add("assets/imgchave/14.png");
     matrizimg.add("assets/imgchave/15.png");
     matrizimg.add("assets/imgchave/16.png");
     matrizimg.add("assets/imgchave/17.png");
     matrizimg.add("assets/imgchave/18.png");
-    matrizimg.add("assets/imgchave/19.png");
+    matrizimg.add("assets/imgchave/null.png");
     matrizimg.add("assets/imgchave/20.png");
     matrizimg.add("assets/imgchave/21.png");
     matrizimg.add("assets/imgchave/22.png");
