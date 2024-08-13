@@ -142,18 +142,18 @@ class _infoBody extends State<infoBody> {
                                         .toLowerCase() +
                                     (indicetag + 1).toString() +
                                     ".png"),
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            PageTransition(
-                              type: PageTransitionType.rightToLeft,
-                              child: infoFullScreen(
-                                index: index,
-                                numimage: indicetag + 1,
-                                tag: indicetag,
-                              ),
+                        onPressed: () {   Navigator.push(
+                          context,
+                          PageTransition(
+                            type: PageTransitionType.rightToLeft,
+                            child: infoFullScreen(
+                              index: index,
+                              numimage: indicetag + 1,
+                              tag: indicetag,
                             ),
-                          );
+                          ),
+                        );
+
                         },
                       );
                     },

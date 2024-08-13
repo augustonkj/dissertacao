@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-var Referencias_archaeognatha = <Widget>[archaeognatha_rocha];
 
-var archaeognatha_rocha = RichText(
+var Referencias_psocodea =<Widget>[psocodea];
+
+
+var psocodea = RichText(
   textAlign: TextAlign.justify,
   text: new TextSpan(
     style: new TextStyle(
@@ -14,7 +16,7 @@ var archaeognatha_rocha = RichText(
     ),
     children: <TextSpan>[
       new TextSpan(
-        text: '1. ALE-ROCHA, Rosaly; ADIS, Joachim Ulrich. Archaeognatha ',
+        text: '1 editar . ALE-ROCHA, Rosaly; ADIS, Joachim Ulrich. Archaeognatha ',
         style: TextStyle(
           fontWeight: FontWeight.normal,
         ),

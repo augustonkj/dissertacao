@@ -1,5 +1,5 @@
 
-import 'package:ChaveamentoInsetos/referencias/ref_archeognatha.dart';
+import 'package:ChaveamentoInsetos/referencias/ref_archaeognatha.dart';
 import 'package:ChaveamentoInsetos/referencias/ref_auchenorrhyncha.dart';
 import 'package:ChaveamentoInsetos/referencias/ref_blattaria.dart';
 import 'package:ChaveamentoInsetos/referencias/ref_coleoptera.dart';

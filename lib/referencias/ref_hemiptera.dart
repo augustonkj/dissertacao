@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
-var Referencias_zygentoma = <Widget>[zygentoma];
+var Referencias_hemiptera = <Widget>[hemiptera];
 
-var zygentoma = RichText(
+var hemiptera = RichText(
   textAlign: TextAlign.justify,
   text: new TextSpan(
     style: new TextStyle(
