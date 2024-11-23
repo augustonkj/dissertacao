@@ -179,7 +179,7 @@ class _OrdemClassificaBody extends State<OrdemClassificaBody> {
                                                 color: Colors.white,
                                               ),
 
-                                              onTap: () {
+                                              onTap: () {print(Botoes.indice);
                                                 Navigator.push(
                                                   context,
                                                   MaterialPageRoute(
